@@ -1,5 +1,5 @@
 <template>
-  <div class="flex gap-8 items-start">
+  <div class="flex flex-col lg:flex-row gap-8 items-start">
     <MenuComponent :categorias="categorias" @selecionar-categoria="selecionarCategoria" />
 
     <div class="flex-1">

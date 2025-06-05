@@ -1,12 +1,12 @@
 <template>
-  <div>
-    <h1 class="text-3xl font-bold mb-6 mt-20 text-blue-700 text-center">Seu Carrinho</h1>
+  <div class="bg-gray-200 p-8 rounded-lg shadow">
+    <h1 class="text-3xl font-bold mb-6 text-blue-700 text-center">Seu Carrinho</h1>
     <div v-if="carrinho.length > 0" class="flex justify-end mb-6">
       <router-link to="/catalogo" class="inline-block bg-blue-600 text-white py-3 px-6 rounded-lg shadow hover:bg-blue-700 transition"> ← Voltar ao Catálogo </router-link>
     </div>
     <div v-if="carrinho.length === 0" class="text-center text-gray-600"> O carrinho está vazio. </div>
     <div v-else class="space-y-4 mt-10">
-      <div v-for="item in carrinho" :key="item.id" class="flex items-center justify-between bg-white shadow p-4 rounded-lg">
+      <div v-for="item in carrinho" :key="item.id" class="flex flex-col md:flex-row md:justify-between md:items-center gap-4 bg-white shadow p-4 rounded-lg">
         <div class="flex items-center gap-4">
           <img :src="item.thumbnail" class="w-20 h-20 object-cover rounded-lg">
           <div>
@@ -23,8 +23,11 @@
         </div>
       </div>
 
-      <div class="text-center mt-20 text-xl font-bold">
+      <div class="gap-4 text-xl font-bold">
         Total: R$ {{ total }}
+      </div>
+      <div>
+        <router-link to="#" class="inline-block bg-green-600 text-white py-3 px-6 rounded-lg shadow hover:bg-green-700 transition"> Finalizar Compra </router-link>
       </div>
     </div>
   </div>

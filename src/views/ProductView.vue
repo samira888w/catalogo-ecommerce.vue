@@ -52,4 +52,3 @@ function adicionar() {
   adicionarAoCarrinho(produto.value)
 }
 </script>
-
