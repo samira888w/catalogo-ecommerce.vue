@@ -1,5 +1,5 @@
 <template>
-  <section class="text-center aling-itens justify-center mt-40">
+  <section class="flex flex-col justify-center items-center text-center mt-40">
     <h1 class="text-4xl font-bold mb-6 text-blue-700">Bem-vindo ao E-commerce da Unimar</h1>
     <p class="text-lg text-gray-700 mb-8 max-w-2xl mx-auto">
       Explore nosso catálogo com dezenas de produtos incríveis! Você pode navegar por categorias,
