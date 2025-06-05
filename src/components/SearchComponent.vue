@@ -4,8 +4,7 @@
     @input="$emit('buscar', busca)"
     type="text"
     placeholder="Buscar produtos..."
-    class="border px-3 py-2 rounded w-full mb-4"
-  />
+    class="border px-3 py-2 rounded w-full mb-4"/>
 </template>
 
 <script setup>
