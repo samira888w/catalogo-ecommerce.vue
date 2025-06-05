@@ -1,18 +1,15 @@
 <template>
   <nav class="bg-blue-600 text-white py-4 px-6">
     <div class="flex justify-between items-center flex-wrap gap-4">
-      <!-- Logo -->
       <h1 class="text-lg font-bold whitespace-nowrap">
         E-commerce
       </h1>
-
-      <!-- Menu -->
       <ul class="flex items-center gap-4 flex-wrap">
         <li>
-          <router-link to="/" class="hover:underline whitespace-nowrap">Início</router-link>
+          <router-link to="/" class="hover:no-underline whitespace-nowrap">Início</router-link>
         </li>
         <li>
-          <router-link to="/catalogo" class="hover:underline whitespace-nowrap">Catálogo</router-link>
+          <router-link to="/catalogo" class="hover:no-underline whitespace-nowrap">Catálogo</router-link>
         </li>
         <li>
           <router-link to="/carrinho" class="bg-blue-200 text-black py-2 px-4 rounded relative whitespace-nowrap">
