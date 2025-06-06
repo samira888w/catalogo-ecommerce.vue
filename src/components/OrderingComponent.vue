@@ -1,5 +1,5 @@
 <template>
-  <select v-model="ordemSelecionada" @change="$emit('ordenar', ordemSelecionada)" class="border px-3 py-2 rounded mb-4">
+  <select v-model="ordemSelecionada" @change="$emit('ordenar', ordemSelecionada)" class="bg-gray-100 border px-3 py-2 rounded mb-4">
     <option value="">Sem ordenação</option>
     <option value="asc">Preço: Menor para Maior</option>
     <option value="desc">Preço: Maior para Menor</option>

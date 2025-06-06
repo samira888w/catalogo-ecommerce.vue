@@ -1,5 +1,5 @@
 <template>
-  <nav class="bg-blue-600 text-white py-4 px-6">
+  <nav class="fixed top-0 left-0 w-full bg-blue-600 text-white py-4 px-6 z-50">
     <div class="flex justify-between items-center flex-wrap gap-4">
       <h1 class="text-lg font-bold whitespace-nowrap">
         E-commerce
