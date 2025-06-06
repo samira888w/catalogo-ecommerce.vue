@@ -70,13 +70,13 @@ http://localhost:5173
 ## 🖼️ Prints das telas
 
 ### 📌 Catálogo com produtos e menu de categorias:
-![catálogo](.;/prints/catalogo.png)
+![catálogo](/public/prints/catalogo.png)
 
 ### 📌 Detalhes do produto:
-![detalhes](./prints/detalhes-produto.png)
+![detalhes](/public/prints/detalhes-produto.png)
 
 ### 📌 Carrinho de compras:
-![carrinho](./prints/carrinho.png)
+![carrinho](/public/prints/carrinho.png)
 
 ## 🎥 Demonstração em vídeo
 
